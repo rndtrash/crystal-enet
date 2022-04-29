@@ -1,14 +1,10 @@
-name: crystal-enet
-version: 0.1.0
+name: enet
+version: 0.1.1
 
-# dependencies:
-#   openssl:
-#     github: datanoise/openssl.cr
-#     branch: master
+authors:
+  - Elthariel <contact@lta.io>
+  - Ivan "rndtrash" Kuzmenko
 
-# development_dependencies:
-#   minitest:
-#     git: https://github.com/ysbaddaden/minitest.cr.git
-#     version: ~> 0.3.1
+crystal: ">= 1.0.0"
 
 license: MIT

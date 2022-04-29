@@ -15,7 +15,7 @@ class MyClient < Enet::Client
   # Calls when the receive call timesout, i.e. no event was received
   def on_none(event)
     if connected?
-      puts "Sendind a ping..."
+      puts "Sending a ping..."
       channel(0_u8).send("Ping")
     end
   end

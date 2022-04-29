@@ -2,15 +2,11 @@
 # Main module for Enet
 #
 
-require "./lib_enet"
-require "./address"
-require "./packet"
-require "./peer"
-require "./host"
-require "./server"
-require "./client"
+require "./enet/*"
 
 module Enet
+  extend self
+
   class Error < Exception
   end
 

@@ -20,4 +20,4 @@ See Enet's documentation here: http://enet.bespin.org/index.html
 ## Run samples
 
   - `crystal samples/server.cr`
-  - `crystal samples/client localhost:42042`
+  - `crystal samples/client.cr localhost:42042`
